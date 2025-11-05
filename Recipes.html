@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Metadata (Grp 5) -->
+  <meta name="description" content="Simple, budget-friendly vegan recipes you can cook comfortably at your own pace.">
+  <meta name="keywords" content="vegan recipes, affordable, easy meals, introvert cooking, plant-based">
+  <meta name="author" content="Student Name">
+
+  <!-- Fonts: headings Pacifico, body Roboto (Grp 3) -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon + stylesheet (Grp 2) -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <title>Recipes – Affordable Vegan Eating</title>
+</head>
+<body>
+
+  <!-- Cookie (z-index 9999) -->
+  <aside class="cookie" role="note" aria-label="Cookie notice">
+    <p><strong>Cookies:</strong> This site uses essential cookies only. <a href="#contact">Learn more</a>.
+      <button type="button" class="cookie__close" aria-label="Close">&times;</button>
+    </p>
+  </aside>
+
+  <!-- Header (same structure/site styling) -->
+  <header class="site-header">
+    <a class="brand" href="Home.html" title="Affordable Vegan Eating home">
+      <figure class="brandmark">
+        <img src="img/LOGO_VEGAN_EATING FINAL.png" alt="Leaf &amp; fork logo" width="80" height="80" title="Affordable Vegan Eating">
+        <figcaption class="visually-hidden">Affordable Vegan Eating</figcaption>
+      </figure>
+      <span class="brandtext">Affordable<br>Vegan Eating</span>
+    </a>
+
+    <button class="nav-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Open menu">
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
+    </button>
+
+    <nav class="main-nav" id="primary-menu" aria-label="Primary" data-open="false">
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Restaurants.html">Restaurants</a></li>
+        <li><a href="Recipes.html" aria-current="page">Recipes</a></li>
+        <li><a href="Grocery.html">Grocery Stores</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content">
+
+    <!-- HERO with title pill overlay -->
+    <section class="hero" aria-label="Recipes banner">
+      <figure class="hero__media">
+        <img src="images/recipes/hero-cooking-placeholder.jpg"
+             alt="Person cooking vegetables in a pan on a tidy kitchen counter"
+             title="Recipes hero placeholder">
+        <figcaption class="visually-hidden">Cooking scene with vegetables in a pan</figcaption>
+      </figure>
+
+      <article class="hero__card hero__card--pill">
+        <h1>Homemade Recipes for Introverts</h1>
+      </article>
+    </section>
+
+    <!-- Intro block -->
+    <section class="recipes-intro">
+      <header><h2>Cook Comfortably at Your Own Pace</h2></header>
+      <p class="dropcap">
+        Cooking at home doesn’t have to be complicated. These easy vegan recipes are designed for introverts who enjoy peaceful
+        cooking moments—no stress, simple steps, minimal cleanup, and satisfying results.
+      </p>
+      <p>
+        Learn how to prepare delicious plant-based meals that save time and money while keeping every bite full of flavor.
+      </p>
+    </section>
+
+    <!-- Three recipes stacked (image left, details right) -->
+    <section class="recipes" aria-label="Recipe list">
+
+      <!-- 1. Cozy Lentil Curry -->
+      <article class="recipe" aria-labelledby="r1">
+        <figure class="recipe__media">
+          <img src="images/recipes/lentil-curry-placeholder.jpg"
+               alt="Bowl of red lentil curry with herbs"
+               title="Cozy Lentil Curry (placeholder)">
+          <figcaption class="visually-hidden">Red lentil curry in a bowl</figcaption>
+        </figure>
+
+        <aside class="recipe__info">
+          <h2 id="r1" class="recipe__badge">Cozy Lentil Curry</h2>
+          <ul>
+            <li><strong>Prep time:</strong> ~20 minutes</li>
+            <li><strong>Cost:</strong> &lt; €2 per serving</li>
+            <li><strong>You’ll need:</strong> Red lentils, coconut milk, curry paste, onion, spinach.</li>
+            <li><strong>Why it’s great:</strong> One pot, minimal chopping, rich flavor. Perfect for meal prep.</li>
+          </ul>
+
+          <!-- Small table (Grp 4: nth-child striping) -->
+          <table class="nutrition">
+            <caption class="visually-hidden">Approximate nutrition per serving</caption>
+            <thead>
+              <tr><th scope="col">Energy</th><th scope="col">Protein</th><th scope="col">Fiber</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>420 kcal</td><td>18 g</td><td>15 g</td></tr>
+              <tr><td>—</td><td>—</td><td>—</td></tr>
+            </tbody>
+          </table>
+        </aside>
+      </article>
+
+      <!-- 2. One-Pan Tofu Stir-Fry -->
+      <article class="recipe" aria-labelledby="r2">
+        <figure class="recipe__media">
+          <img src="images/recipes/tofu-stirfry-placeholder.jpg"
+               alt="Golden tofu cubes with vegetables in a pan"
+               title="One-Pan Tofu Stir-Fry (placeholder)">
+          <figcaption class="visually-hidden">Tofu stir-fry close-up</figcaption>
+        </figure>
+
+        <aside class="recipe__info">
+          <h2 id="r2" class="recipe__badge">One-Pan Tofu Stir-Fry</h2>
+          <ul>
+            <li><strong>Prep time:</strong> 25 minutes</li>
+            <li><strong>Cost:</strong> ~ €2 per serving</li>
+            <li><strong>You’ll need:</strong> Tofu, frozen veggies, rice or noodles, soy sauce, garlic.</li>
+            <li><strong>Why it’s great:</strong> Fast, high protein, flexible with whatever’s in your fridge.</li>
+          </ul>
+        </aside>
+      </article>
+
+      <!-- 3. Overnight Oats with Fruit -->
+      <article class="recipe" aria-labelledby="r3">
+        <figure class="recipe__media">
+          <img src="images/recipes/overnight-oats-placeholder.jpg"
+               alt="Jar of layered overnight oats with berries"
+               title="Overnight Oats with Fruit (placeholder)">
+          <figcaption class="visually-hidden">Overnight oats in a jar</figcaption>
+        </figure>
+
+        <aside class="recipe__info">
+          <h2 id="r3" class="recipe__badge">Overnight Oats with Fruit</h2>
+          <ul>
+            <li><strong>Prep time:</strong> 5 minutes</li>
+            <li><strong>Cost:</strong> &lt; €1.50 per serving</li>
+            <li><strong>You’ll need:</strong> Oats, plant milk, chia, fruit, nut butter.</li>
+            <li><strong>Why it’s great:</strong> Zero cooking, ready in the morning, customizable.</li>
+          </ul>
+        </aside>
+      </article>
+
+      <!-- Tips list -->
+      <section class="tips" aria-label="Tips for introvert-friendly cooking">
+        <h3>Tips for Introvert-Friendly Cooking</h3>
+        <ul>
+          <li>Cook once, eat twice: double your recipe for easy leftovers.</li>
+          <li>Choose one-pot meals to reduce cleanup.</li>
+          <li>Try cooking during quiet hours — it makes the process relaxing.</li>
+          <li>Keep a few “comfort recipes” for low-energy days.</li>
+          <li>Use background music or podcasts to create your own calm atmosphere.</li>
+        </ul>
+      </section>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small class="tagline">Affordable Vegan Eating – Making vegan dining easy and affordable.</small>
+
+    <!-- Contact teaser form (Grp 2: label, legend, email, submit) -->
+    <section id="contact" class="contact">
+      <header><h2>CONTACT<br>US</h2></header>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Send a recipe request</legend>
+          <p>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com">
+          </p>
+          <p>
+            <label for="message">What recipe would you like to see?</label>
+            <textarea id="message" name="message" rows="3" required></textarea>
+          </p>
+          <p><input type="submit" value="Send"></p>
+        </fieldset>
+      </form>
+    </section>
+
+    <address>
+      <a href="mailto:info@example.org">info@example.org</a>
+    </address>
+
+    <p class="copyright">
+      &copy; <span id="year">2025</span> Affordable Vegan Eating &mdash; All rights reserved.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      // year
+      var y = document.getElementById('year');
+      if (y) y.textContent = new Date().getFullYear();
+
+      // cookie
+      var b = document.querySelector('.cookie__close');
+      if (b) b.addEventListener('click', function(){ var c=document.querySelector('.cookie'); if(c) c.remove(); });
+
+      // hamburger
+      var toggle = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('primary-menu');
+      if (toggle && nav) {
+        function setOpen(open){
+          nav.setAttribute('data-open', String(open));
+          toggle.setAttribute('aria-expanded', String(open));
+          document.body.classList.toggle('noscroll', open);
+        }
+        toggle.addEventListener('click', function(){ setOpen(nav.getAttribute('data-open') !== 'true'); });
+        nav.addEventListener('click', function(e){ if (e.target.tagName === 'A') setOpen(false); });
+        document.addEventListener('keydown', function(e){ if (e.key === 'Escape') setOpen(false); });
+      }
+    }());
+  </script>
+</body>
+</html>

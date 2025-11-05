@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Metadata -->
+  <meta name="description" content="Vegan-friendly grocery shops near Amsterdam West with refill options and budget-friendly plant-based products.">
+  <meta name="keywords" content="grocery, vegan, Amsterdam West, plant-based, refill, zero waste, affordable">
+  <meta name="author" content="Student Name">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon + stylesheet -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <title>Grocery Store – Affordable Vegan Eating</title>
+</head>
+<body>
+
+  <!-- Cookie -->
+  <aside class="cookie" role="note" aria-label="Cookie notice">
+    <p><strong>Cookies:</strong> This site uses essential cookies only. <a href="#contact">Learn more</a>.
+      <button type="button" class="cookie__close" aria-label="Close">&times;</button>
+    </p>
+  </aside>
+
+  <!-- Header (same as other pages, with hamburger) -->
+  <header class="site-header">
+    <a class="brand" href="Home.html" title="Affordable Vegan Eating home">
+      <figure class="brandmark">
+        <img src="img/LOGO_VEGAN_EATING FINAL.png" alt="Leaf &amp; fork logo" width="80" height="80" title="Affordable Vegan Eating">
+        <figcaption class="visually-hidden">Affordable Vegan Eating</figcaption>
+      </figure>
+      <span class="brandtext">Affordable<br>Vegan Eating</span>
+    </a>
+
+    <button class="nav-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Open menu">
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
+    </button>
+
+    <!-- ORDER EXACTLY AS REQUESTED -->
+    <nav class="main-nav" id="primary-menu" aria-label="Primary" data-open="false">
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Restaurants.html">Restaurants</a></li>
+        <li><a href="Recipes.html">Recipes</a></li>
+        <li><a href="Grocery.html" aria-current="page">Grocery Store</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content">
+
+    <!-- Title pill -->
+    <header class="page-header">
+      <h1 class="page-title-pill">Vegan friendly grocery shops</h1>
+    </header>
+
+    <!-- Big hero image -->
+    <section class="hero" aria-label="Grocery hero">
+      <figure class="hero__media">
+        <img src="images/grocery/hero-plant-based-sign-placeholder.jpg"
+             alt="Storefront sign with the words PLANT-BASED above chilled fridges"
+             title="Grocery hero placeholder">
+        <figcaption class="visually-hidden">Plant-based sign in a grocery store</figcaption>
+      </figure>
+    </section>
+
+    <!-- Shops -->
+    <section class="grocers" aria-label="Grocers list">
+
+      <!-- Little Plant Pantry (image left, card right) -->
+      <article class="grocer">
+        <figure class="grocer__media">
+          <img src="images/grocery/little-plant-pantry-placeholder.jpg"
+               alt="Little Plant Pantry storefront with chalkboard menu"
+               title="Little Plant Pantry (placeholder)">
+          <figcaption class="visually-hidden">Little Plant Pantry exterior</figcaption>
+        </figure>
+
+        <aside class="grocer__card">
+          <h2 class="grocer__badge">Little Plant Pantry</h2>
+          <p class="grocer__lede">
+            A 100% plant-based, zero-waste grocery store and deli that focuses on wholefoods, organic products,
+            and refill-friendly bulk shopping. You can buy grains, lentils, spices, vegan cheeses, and even freshly made vegan meals.
+          </p>
+          <ul>
+            <li><strong>Address:</strong> Bosboom Toussaintstraat 45-H, 1054 AN Amsterdam (Oud-West)</li>
+            <li><strong>Website:</strong> <a href="#" title="Visit website">littleplantpantry.com</a> (placeholder)</li>
+            <li><strong>Price range:</strong> €1–€3 per 100 g (bulk foods), €5–€10 for ready meals</li>
+            <li><strong>Highlights:</strong> Plastic-free shopping, local suppliers, refill options, friendly staff, and peaceful atmosphere.</li>
+          </ul>
+        </aside>
+      </article>
+
+      <!-- Ekoplaza (card left, image right) -->
+      <article class="grocer grocer--reverse">
+        <aside class="grocer__card">
+          <h2 class="grocer__badge">Ekoplaza (Elandsgracht)</h2>
+          <p class="grocer__lede">
+            A well known organic supermarket offering a wide range of vegan-friendly items from plant-based milks and yogurts
+            to fresh vegetables, snacks, and pantry essentials.
+          </p>
+          <ul>
+            <li><strong>Address:</strong> Elandsgracht 118-1, 1016 VB Amsterdam</li>
+            <li><strong>Website:</strong> <a href="#" title="Visit website">ekoplaza.nl</a> (placeholder)</li>
+            <li><strong>Price range:</strong> Medium (€3–€10 depending on product)</li>
+            <li><strong>Highlights:</strong> Convenient for everyday vegan groceries, strong organic selection, easily accessible from Amsterdam West.</li>
+          </ul>
+
+          <!-- Small facts table for rubric nth-child striping -->
+          <table class="facts">
+            <caption class="visually-hidden">Quick refill/package options</caption>
+            <thead>
+              <tr><th scope="col">Option</th><th scope="col">Little Plant Pantry</th><th scope="col">Ekoplaza</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Bring your own jars</td><td>Yes</td><td>Limited</td></tr>
+              <tr><td>Bulk grains/beans</td><td>Extensive</td><td>Some</td></tr>
+              <tr><td>Ready vegan meals</td><td>Yes</td><td>Yes</td></tr>
+              <tr><td>Student-friendly prices</td><td>€€</td><td>€€</td></tr>
+            </tbody>
+          </table>
+        </aside>
+
+        <figure class="grocer__media">
+          <img src="images/grocery/ekoplaza-elandsgracht-placeholder.jpg"
+               alt="Ekoplaza Elandsgracht entrance with green signage"
+               title="Ekoplaza (Elandsgracht) (placeholder)">
+          <figcaption class="visually-hidden">Ekoplaza storefront</figcaption>
+        </figure>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small class="tagline">Affordable Vegan Eating – Making vegan dining easy and affordable.</small>
+
+    <section id="contact" class="contact">
+      <header><h2>CONTACT<br>US</h2></header>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Say hello</legend>
+          <p>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com">
+          </p>
+          <p>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="3" required></textarea>
+          </p>
+          <p><input type="submit" value="Send"></p>
+        </fieldset>
+      </form>
+    </section>
+
+    <address>
+      <a href="mailto:info@example.org">info@example.org</a>
+    </address>
+
+    <p class="copyright">
+      &copy; <span id="year">2025</span> Affordable Vegan Eating &mdash; All rights reserved.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      // footer year
+      var y = document.getElementById('year');
+      if (y) y.textContent = new Date().getFullYear();
+
+      // cookie
+      var b = document.querySelector('.cookie__close');
+      if (b) b.addEventListener('click', function(){ var c=document.querySelector('.cookie'); if(c) c.remove(); });
+
+      // hamburger
+      var toggle = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('primary-menu');
+      if (toggle && nav) {
+        function setOpen(open){
+          nav.setAttribute('data-open', String(open));
+          toggle.setAttribute('aria-expanded', String(open));
+          document.body.classList.toggle('noscroll', open);
+        }
+        toggle.addEventListener('click', function(){ setOpen(nav.getAttribute('data-open') !== 'true'); });
+        nav.addEventListener('click', function(e){ if (e.target.tagName === 'A') setOpen(false); });
+        document.addEventListener('keydown', function(e){ if (e.key === 'Escape') setOpen(false); });
+      }
+    }());
+  </script>
+</body>
+</html>

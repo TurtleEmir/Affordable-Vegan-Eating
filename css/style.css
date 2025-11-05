@@ -1021,3 +1021,7 @@ form fieldset {
 .our-mission {
   text-indent: 400px; /* indent the first line */
 }
+
+.page-header {
+  text-align: center;
+}

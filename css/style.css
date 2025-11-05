@@ -84,7 +84,7 @@ h2 {
   flex: 1 1 auto;
   position: relative;
 }
-.main-nav ul {
+.main-nav > ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -202,6 +202,9 @@ h2 {
   border-radius: 1.2rem;
   border: 0.12rem solid #1b6c2a;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.18);
+  border-width: 5px;
+  border-style: solid;
+  border-color: #4aa45a;
 }
 .hero__card p {
   margin: 0.6rem 0 0;
@@ -1007,4 +1010,14 @@ form fieldset {
 
 .brandtext .line-break {
   display: block;
+}
+
+.our-mission::first-letter {
+  font-size: 40px;      /* make the first letter larger */
+  color: #4aa45a;       /* optional: give it a color */
+  font-weight: bold;    /* optional: make it stand out */
+}
+
+.our-mission {
+  text-indent: 400px; /* indent the first line */
 }

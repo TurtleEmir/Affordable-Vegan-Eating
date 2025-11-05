@@ -1,5 +1,5 @@
 Student name: Emir Wahedi
 Student number: 746273
 Student class: HAIT25FT1C
-GitHub Repository: your github repository URL
-GitHub Pages URL: your github pages URL
+GitHub Repository: https://github.com/TurtleEmir/Affordable-Vegan-Eating
+GitHub Pages URL: https://turtleemir.github.io/Affordable-Vegan-Eating/

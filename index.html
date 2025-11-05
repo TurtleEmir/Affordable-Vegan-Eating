@@ -31,24 +31,28 @@
 
   <!-- Site Header -->
   <header class="site-header">
-    <a class="brand" href="Home.html" title="Affordable Vegan Eating home">
+    <a class="brand" href="index.html" title="Affordable Vegan Eating home">
       <figure class="brandmark">
-        <img src="img/LOGO_VEGAN_EATING FINAL.png" width="80" height="80"
+        <img src="img/LOGO_VEGAN_EATING_FINAL.png" width="80" height="80"
              alt="Leaf &amp; fork logo" title="Affordable Vegan Eating">
         <figcaption class="visually-hidden">Affordable Vegan Eating</figcaption>
       </figure>
-      <span class="brandtext">Affordable<br>Vegan Eating</span>
+
+      <span class="brandtext">
+        Affordable
+        <span class="line-break">Vegan Eating</span>
+      </span>
     </a>
 
     <!-- Mobile hamburger -->
     <button class="nav-toggle" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false">
-      <span class="nav-toggle__bar"></span>
-      <span class="nav-toggle__bar"></span>
-      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
     </button>
 
     <!-- Primary nav -->
-    <nav id="primary-nav" class="main-nav" aria-label="Primary">
+    <nav id="primary-nav" class="main-nav" aria-label="Primary" data-open="false">
       <ul>
         <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="Restaurants.html">Restaurants</a></li>
@@ -159,7 +163,10 @@
     <small class="tagline">Affordable Vegan Eating – Making vegan dining easy and affordable.</small>
 
     <section id="contact" class="contact">
-      <header><h2>CONTACT<br>US</h2></header>
+      <header>
+
+        <h2>CONTACT <span class="line-break">US</span></h2>
+      </header>
       <form action="#" method="post">
         <fieldset>
           <legend>Say hello</legend>
